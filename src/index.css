@@ -57,3 +57,10 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
+.bgOverlay {
+  position: absolute;
+  inset: 0;
+  background: #030615;
+  opacity: 0.6;
+}
