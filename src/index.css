@@ -20,7 +20,7 @@
 #root {
   max-height: 100vh;
   display: flex;
-  display: relative;
+  position: relative;
 }
 
 .imgContainer {
