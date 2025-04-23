@@ -80,3 +80,7 @@ footer {
   margin-left: auto;
   background-color: #030615;
 }
+
+.sideBarContents div {
+  flex: 1;
+}
