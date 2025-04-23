@@ -1,3 +1,7 @@
 export default function Main() {
-  return <div></div>;
+  return (
+    <div>
+      <img src="mars.png" alt="mars-demo-picture" />
+    </div>
+  );
 }
