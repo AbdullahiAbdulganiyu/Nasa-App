@@ -84,3 +84,11 @@ footer {
 .sideBarContents div {
   flex: 1;
 }
+
+.sideBarContents button {
+  background: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  margin-right: auto;
+}
