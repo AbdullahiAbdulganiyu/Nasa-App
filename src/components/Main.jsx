@@ -1,3 +1,3 @@
 export default function Main() {
-  return <img src="mars.png" alt="mars-demo-picture" />;
+  return <img src="mars.png" alt="mars-demo-picture" className="bgImage" />;
 }
