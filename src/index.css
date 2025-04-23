@@ -12,3 +12,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#root {
+  max-height: 100vh;
+  display: flex;
+}
