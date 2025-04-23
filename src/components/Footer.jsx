@@ -3,6 +3,7 @@ export default function Footer() {
     <footer>
       <div>
         <h2>The Brutal Martian Landscape</h2>
+        <h1>APOD PROJECT</h1>
       </div>
     </footer>
   );
