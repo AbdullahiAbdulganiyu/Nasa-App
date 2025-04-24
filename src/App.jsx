@@ -12,7 +12,7 @@ function App() {
     <>
       <Main />
       {showModal && <SideBar />}
-      <Footer />
+      <Footer handleToggleModal={handleToggleModal} />
     </>
   );
 }
