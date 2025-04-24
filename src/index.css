@@ -72,6 +72,10 @@ footer button i {
   font-size: 1.3rem;
 }
 
+footer button:hover {
+  opacity: 0.5;
+}
+
 .bgGradient {
   position: absolute;
   inset: 0;
