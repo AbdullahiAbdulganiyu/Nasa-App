@@ -68,6 +68,10 @@ footer button {
   padding: 1rem;
 }
 
+footer button i {
+  font-size: 1.3rem;
+}
+
 .bgGradient {
   position: absolute;
   inset: 0;
