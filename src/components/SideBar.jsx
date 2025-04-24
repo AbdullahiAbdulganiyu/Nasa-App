@@ -10,7 +10,10 @@ export default function SideBar(props) {
           <p>Some description about the image</p>
         </div>
         <button>
-          <i className="fa-solid fa-arrow-right"></i>
+          <i
+            onClick={handleToggleModal}
+            className="fa-solid fa-arrow-right"
+          ></i>
         </button>
       </div>
     </div>
