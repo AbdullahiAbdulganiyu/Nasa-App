@@ -66,6 +66,7 @@ footer button {
   outline: none;
   color: white;
   padding: 1rem;
+  transition-duration: 200ms;
 }
 
 footer button i {
