@@ -1,4 +1,5 @@
-export default function SideBar() {
+export default function SideBar(props) {
+  const { handleToggleModal } = props;
   return (
     <div className="sideBar">
       <div className="bgOverlay"></div>
