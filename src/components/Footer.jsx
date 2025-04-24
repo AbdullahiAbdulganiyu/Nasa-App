@@ -1,4 +1,5 @@
-export default function Footer() {
+export default function Footer(props) {
+  const { handleToggleModal } = props;
   return (
     <footer>
       <div className="bgGradient"></div>
