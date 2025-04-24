@@ -2,7 +2,7 @@ export default function SideBar(props) {
   const { handleToggleModal } = props;
   return (
     <div className="sideBar">
-      <div className="bgOverlay"></div>
+      <div onClick={handleToggleModal} className="bgOverlay"></div>
       <div className="sideBarContents">
         <h2>The Brutal Matian Landscape</h2>
         <div>
