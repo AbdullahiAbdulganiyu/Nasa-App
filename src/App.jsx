@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Main />
-      {showModal && <SideBar />}
+      {showModal && <SideBar handleToggleModal={handleToggleModal} />}
       <Footer handleToggleModal={handleToggleModal} />
     </>
   );
