@@ -67,6 +67,7 @@ footer button {
   color: white;
   padding: 1rem;
   transition-duration: 200ms;
+  cursor: pointer;
 }
 
 footer button i {
