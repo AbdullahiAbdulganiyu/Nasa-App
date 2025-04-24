@@ -44,6 +44,15 @@ footer {
   gap: 1rem;
 }
 
+footer h2 {
+  font-size: 1.4rem;
+}
+
+footer h1 {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
 .bgGradient {
   position: absolute;
   inset: 0;
