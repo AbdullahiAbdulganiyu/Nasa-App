@@ -124,6 +124,8 @@ footer button:hover {
   border: none;
   outline: none;
   margin-right: auto;
+  cursor: pointer;
+  transition-duration: 200ms;
 }
 
 @media (min-width: 640px) {
