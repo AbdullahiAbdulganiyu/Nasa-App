@@ -32,7 +32,7 @@ function App() {
       {data ? (
         <Main />
       ) : (
-        <div>
+        <div className="loadingState">
           <i className="fa-solid fa-gear"></i>
         </div>
       )}
