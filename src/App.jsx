@@ -33,7 +33,7 @@ function App() {
         <Main />
       ) : (
         <div>
-          <i class="fa-solid fa-gear"></i>
+          <i className="fa-solid fa-gear"></i>
         </div>
       )}
       {showModal && <SideBar handleToggleModal={handleToggleModal} />}
