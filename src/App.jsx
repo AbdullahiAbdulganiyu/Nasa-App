@@ -20,7 +20,7 @@ function App() {
         const res = await fetch(url);
         const apiData = await res.json();
         setData(apiData);
-        console.log("DATA\n", data);
+        console.log("DATA\n", apiData);
       } catch (err) {
         console.log(err.message);
       }
