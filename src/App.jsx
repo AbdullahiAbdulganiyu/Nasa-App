@@ -22,6 +22,7 @@ function App() {
         console.log(err.message);
       }
     }
+    fetchAPIData();
   }, []);
   return (
     <>
