@@ -6,7 +6,7 @@ export default function SideBar(props) {
       <div className="sideBarContents">
         <h2>{data.title}</h2>
         <div className="descriptionContainer">
-          <p className="descriptionTitle">Description</p>
+          <p className="descriptionTitle">{data.date}</p>
           <p>{data.explanation}</p>
         </div>
         <button>
