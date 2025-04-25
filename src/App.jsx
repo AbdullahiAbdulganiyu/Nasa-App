@@ -19,6 +19,7 @@ function App() {
       try {
         const res = await fetch(url);
         const apiData = await res.json();
+        setData(apiData);
         console.log("DATA\n", data);
       } catch (err) {
         console.log(err.message);
