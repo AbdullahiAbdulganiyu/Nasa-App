@@ -19,6 +19,7 @@ function App() {
       try {
         const res = await fetch(url);
         const apiData = await res.json();
+        localStorage.setItem("localKey", JSON.stringify(apiData));
         setData(apiData);
         console.log("DATA\n", apiData);
       } catch (err) {
