@@ -19,8 +19,8 @@ function App() {
       const today = new Date().toDateString();
       const localKey = `NASA-${today}`;
 
-      if (localStorage.getItem("localKey")) {
-        const apiData = JSON.parse(localStorage.getItem("localKey"));
+      if (localStorage.getItem(localKey)) {
+        const apiData = JSON.parse(localStorage.getItem(localKey));
         setData(apiData);
         return;
       }
