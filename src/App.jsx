@@ -37,7 +37,7 @@ function App() {
         </div>
       )}
       {showModal && <SideBar handleToggleModal={handleToggleModal} />}
-      <Footer handleToggleModal={handleToggleModal} />
+      {data && <Footer handleToggleModal={handleToggleModal} />}
     </>
   );
 }
