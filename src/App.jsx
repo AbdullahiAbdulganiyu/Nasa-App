@@ -21,6 +21,7 @@ function App() {
         setData(apiData);
         return;
       }
+      localStorage.clear();
 
       try {
         const res = await fetch(url);
