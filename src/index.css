@@ -114,6 +114,11 @@ footer button:hover {
   background-color: #030615;
 }
 
+.sideBarContents h2 {
+  font-weight: 200;
+  font-size: 1.4rem;
+}
+
 .sideBarContents div {
   flex: 1;
 }
