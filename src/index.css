@@ -182,5 +182,6 @@ footer button:hover {
 
   .sideBarContents {
     margin: unset;
+    width: 100%;
   }
 }
