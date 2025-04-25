@@ -140,6 +140,11 @@ footer button:hover {
   flex: 1;
 }
 
+.loadingState i {
+  opacity: 0.2;
+  font-size: 3rem;
+}
+
 @media (min-width: 640px) {
   .sideBar {
     position: relative;
